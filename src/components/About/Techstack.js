@@ -6,9 +6,13 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
+  DiHtml5,
+  DiWordpress,
+  DiPhp,
+  DiMysql,
+  DiDrupal,
+  DiMagento
 } from "react-icons/di";
 import {
   SiRedis,
@@ -16,8 +20,16 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiTailwindcss,
+  SiCss3,
+  SiTypescript,
+  SiAngular,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import {
+  FaVuejs,
+  FaLaravel
+} from "react-icons/fa";
+
 
 function Techstack() {
   return (
@@ -26,10 +38,16 @@ function Techstack() {
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,7 +56,10 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiAngular />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaVuejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -47,7 +68,25 @@ function Techstack() {
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWordpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDrupal />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMagento />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
@@ -57,12 +96,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col>
     </Row>
   );
