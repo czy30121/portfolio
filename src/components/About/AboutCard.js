@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "left" }}>
             {/* Hi Everyone, I am <span className="purple">Michael Lane. </span>
             from <span className="purple"> Victoria, Canada.</span> */}
-            <br /> I'm a frontend developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems.
+            I'm a frontend developer with 8 years of experience specializing in React. I have a passion for creating high-quality user interfaces and enjoy tackling complex problems.
             <br /> I'm constantly learning and exploring new technologies to improve my skills and deliver the best possible solutions.
           </p>
           <ul>
